@@ -9,3 +9,20 @@
 9) We get a ReferenceError error. Line 11 tries to access i outside of the block it is declared in so it cannot do so. 
 10) Line 12 should work fine and print 3. Since line 7 redeclares discountedPrice there's no typeError issue, and const discounted only means it cannot be reassigned (but we can push to it).
 11) The function should return [50,100,150]. There is no problem on lines 7 & 8 for the same reasons as Q10.
+12)  .
+     A)   student.name
+     B)   student['Grad Year']
+     C)   student.greeting()
+     D)   student['Favorite Teacher'].name or student['Favorite Teacher']['name']
+     E)   student.courseLoad[0]
+13) .
+    A)   '32', since 2 maps to '2' and the strings concatenated give '32'.
+    B)   1, since '3' maps to 3 and we get 3-2=1. Weird that - makes the string map and + maps the number map.
+    C)   3, since null maps to 0, 3+0=3
+    D)   '3null', since null maps to "null"
+    E)   4, since true maps to 1.
+    F)   0, since both false and null map to 0.
+    G)   '3undefined', since undefined maps to "undefined.
+    H)   NaN, since undefined maps to NaN.
+
+14)
