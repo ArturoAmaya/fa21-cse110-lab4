@@ -25,4 +25,11 @@
     G)   '3undefined', since undefined maps to "undefined.
     H)   NaN, since undefined maps to NaN.
 
-14)
+14) .
+    A)   true, since '2' turns into 1 and 2>1
+    B)   false. Since we're comparing two strings we compare with lexographical order. Comparing '2' from '2' and '1' from '12', '2' is greater than '1', so '2' < '12' is false.
+    C)    true, since '2' gets mapped to 2 and 2==2 is true.
+    D)    false, since 2 and '2' aren't of the same type and we're using strict equality.
+    E)    false; true maps to 1, and 1 == 2 is false.
+    F)    true, Boolean(2) seems to evaluate to true, and true === true is true.
+15) The == operator tries to convert mismatched types to then compare, but === does not. That is === immediately returns false when we compare variables of different types.
