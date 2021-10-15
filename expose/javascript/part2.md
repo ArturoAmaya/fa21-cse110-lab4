@@ -36,5 +36,5 @@
 16) [in code]
 17) The result will be [2,4,6]. In each iteration of the for loop newArr will get a new element: the result of callback(array[i]). The first time, that is the result of callback(1), i.e. 1\*2=2. The second time we get 2\*2=4. The third we get 6. Put it all together in newArr and we get [2,4,6].
 18) [code]
-19) I thought it would print 1,3,4,2. It actually prints 1,4,3,2. It seems to be that setTimeout pushes the function it uses to the back of the exectuion queue so that consolo.log(4) still executes before console.log(3) even though it has a 0 delay. 
+19) I thought it would print 1,3,4,2. It actually prints 1,4,3,2. It seems to be that setTimeout pushes the function it uses to the back of the exectuion queue so that console.log(4) still executes before console.log(3) even though it has a 0 delay. 
 source:https://stackoverflow.com/questions/779379/why-is-settimeoutfn-0-sometimes-useful
