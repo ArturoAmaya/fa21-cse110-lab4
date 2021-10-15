@@ -1,0 +1,2 @@
+1. The bug stems from the fact that num1 and num2 are both stored as strings so using + we concatenate them into 56 (or whatever other result) rather than add their values 5+6=11.
+2. We could solve it using parseInt(num1) and parseInt(num2) before adding them to force them to be numbers - that way result has to be a number too.
