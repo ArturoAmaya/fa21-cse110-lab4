@@ -6,4 +6,4 @@
 6. It seems to have come from: GitHub.com
 7. It was last modified Tue, 12 Oct 2021 18:38:02 GMT
 8. The content type is application/json; charset=utf-8
-9. fetch('./citylots.json) made the request.
+9. fetch('./citylots.json') made the request.
