@@ -1,7 +1,7 @@
 1. Line 12 will just print 3, since i will be 3 when the for-loop breaks, and var isn't block-scoped (meaning console log can access it from outside the for loop).
 2. Line 13 should print discountedPrice, and the result should be prices[2] * (1-discount), which should evaluate to 300*(1-0.5)=300*0.5=150. Line 13 should print 150. There's no scope issue since discountedPrice is a var.
 3. Line 14 should print finalPrice, which should be the result of Math.round(discountedPrice * 100) / 100, which should be Math.round(150*100)/100 = 150. Line 14 should print 150. Again, there's no issue with the scope of finalPrice since it is a var.
-4. This function should return an array of size three with the following values: [50,100,150]. It was made by pushing the finlaPrices made in the for loop, which means the values should be 0.5*the values of the prices array ([100,200,300]).
+4. This function should return an array of size three with the following values: [50,100,150]. It was made by pushing the finalPrices made in the for loop, which means the values should be 0.5*the values of the prices array ([100,200,300]).
 5. This should give a ReferenceError, since i is only accessible within the for loop (since it was declared as let). Line 12 is outside the for loop and cannot access i.
 6. This should give a ReferenceError for the same reason as Q5 - discounterPrice is declared as a let inside a block but then we try to access it from outside that block.
 7. Line 14 should print out 150. Since finalPrice was declared in the same block as the console statement, it can access it with no problem. It was modified in the for loop to be 150.
