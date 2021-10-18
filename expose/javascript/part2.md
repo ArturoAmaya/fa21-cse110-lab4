@@ -17,7 +17,7 @@
     - E)   student.courseLoad[0]
 13. .
     - A)   '32', since 2 maps to '2' and the strings concatenated give '32'.
-    - B)   1, since '3' maps to 3 and we get 3-2=1. Weird that - makes the string map and + maps the number map.
+    - B)   1, since '3' maps to 3 and we get 3-2=1. Weird that - makes the string map and + makes the number map.
     - C)   3, since null maps to 0, 3+0=3
     - D)   '3null', since null maps to "null"
     - E)   4, since true maps to 1.
